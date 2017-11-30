@@ -26,7 +26,7 @@ async def on_message(message):
 
         # TODO: get the time out of any message, in any format
         time_position = message.content.index(command) + len(command)       #position of time in the message
-        time = message.content[time_position + 1:time_position + 12]         #hh:mm
+        time = message.content[time_position + 1:len(message.content)]        #hh:mm
 
         print(timefunctions.parse_time(time))
 
