@@ -10,7 +10,7 @@ client = discord.Client()
 command_1 = '!time'  # this command will call the bot
 manual = '!help'  # this command will make the bot explain its functionalities
 
-# ---Options
+# ---options
 debug = True  # set this to 'True' for more detailed debugging output in console
 
 
