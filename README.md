@@ -1,9 +1,13 @@
 # chronos-bot
 a timezone bot for discord
 
-How to run it yourself:
+how to run it yourself:
 
-install the discord.py and python dateutils package. 
+install these packages:
+
+discord.py: http://discordpy.readthedocs.io
+
+python-dateutil: https://dateutil.readthedocs.io/
 
 copy your TOKEN into the secrets.py file.
 
