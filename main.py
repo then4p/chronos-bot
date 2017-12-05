@@ -54,7 +54,7 @@ async def on_message(message):
     if manual in message.content:
         bot_message = await client.send_message(message.channel,
                                                 'I can give you a delta to your time. \nCall me with \'!time HH:MM TIMEZONE.\'\n'
-                                                'I currently now these time zones: SET (UTC -5), GMT (UTC) and \nCET(UTC + 1))')
+                                                'I currently know these time zones: SET (UTC -5), GMT (UTC) and \nCET(UTC + 1))')
 
 
 client.run(secrets.TOKEN)
